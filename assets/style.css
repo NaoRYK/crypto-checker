@@ -12,6 +12,9 @@
   --disabled: #464646;
 }
 
+html{
+  background-color: var(--bg-primary);
+}
 * {
   padding: 0;
   margin: 0;
@@ -91,12 +94,14 @@ section {
 }
 
 /* Table */
+
+
 .styled-table {
   border-collapse: collapse;
   margin: 25px 0;
   font-size: 0.9rem;
   min-width: 400px;
-  max-width: 1200px;
+  width: 1200px;
   width: 100%;
 }
 
@@ -109,6 +114,7 @@ section {
 .styled-table td {
   padding: 12px 15px;
 }
+
 
 .styled-table tbody tr:nth-of-type(odd) {
   background-color: var(--bg-secondary);
@@ -217,4 +223,16 @@ section {
   100%{
     opacity: 100%;
   }
+}
+
+.despedida{
+  margin-top: 4rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  
+}
+
+.despedida span{
+  margin-left: 0.5rem;
 }
