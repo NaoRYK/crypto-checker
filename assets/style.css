@@ -203,3 +203,18 @@ section {
 .hidden {
   visibility: hidden;
 }
+
+
+.animate {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn{
+
+  0%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
